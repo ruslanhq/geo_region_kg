@@ -5,7 +5,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
 django.setup()
 
 from django.contrib.gis.geos import Polygon
-from apps.geo_data.models import Region, District, Canton
+from apps.geo_data.models import Region, District, Canton, Contour
 
 
 def populate_database():
@@ -50,6 +50,32 @@ def populate_database():
     canton4 = Canton.objects.create(
         district=district2,
         title='Лебединовский айыльный округ',
+        geometry=Polygon(((0, 0), (0, 1), (1, 1), (1, 0), (0, 0)))
+    )
+
+    # Создаем контуры
+    contour1 = Contour.objects.create(
+        canton=canton1,
+        geometry=Polygon(((0, 0), (0, 1), (1, 1), (1, 0), (0, 0)))
+    )
+    contour1 = Contour.objects.create(
+        canton=canton1,
+        geometry=Polygon(((0, 0), (0, 1), (1, 1), (1, 0), (0, 0)))
+    )
+    contour1 = Contour.objects.create(
+        canton=canton2,
+        geometry=Polygon(((0, 0), (0, 1), (1, 1), (1, 0), (0, 0)))
+    )
+    contour1 = Contour.objects.create(
+        canton=canton2,
+        geometry=Polygon(((0, 0), (0, 1), (1, 1), (1, 0), (0, 0)))
+    )
+    contour1 = Contour.objects.create(
+        canton=canton3,
+        geometry=Polygon(((0, 0), (0, 1), (1, 1), (1, 0), (0, 0)))
+    )
+    contour1 = Contour.objects.create(
+        canton=canton3,
         geometry=Polygon(((0, 0), (0, 1), (1, 1), (1, 0), (0, 0)))
     )
 

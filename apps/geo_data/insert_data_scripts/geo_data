@@ -319,6 +319,211 @@
                 "name": "EPSG:4326"
             }
         },
-        "features": []
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "canton": 1,
+                    "pk": "1"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "canton": 1,
+                    "pk": "2"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "canton": 2,
+                    "pk": "3"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "canton": 2,
+                    "pk": "4"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "canton": 3,
+                    "pk": "5"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "canton": 3,
+                    "pk": "6"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
     }
 }
