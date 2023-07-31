@@ -1,0 +1,324 @@
+{
+    "regions": {
+        "type": "FeatureCollection",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        },
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Чуйская область",
+                    "pk": "1"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    "districts": {
+        "type": "FeatureCollection",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        },
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "region": 1,
+                    "title": "Панфиловский район",
+                    "pk": "1"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "region": 1,
+                    "title": "Московский район",
+                    "pk": "2"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "region": 1,
+                    "title": "Сокулукский район",
+                    "pk": "3"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    "cantons": {
+        "type": "FeatureCollection",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        },
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "district": 1,
+                    "title": "Ак-Бешимский айыльный округ",
+                    "pk": "1"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "district": 1,
+                    "title": "Кошойский айыльный округ",
+                    "pk": "2"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "district": 2,
+                    "title": "Беловодский айыльный округ",
+                    "pk": "3"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "district": 2,
+                    "title": "Лебединовский айыльный округ",
+                    "pk": "4"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                0.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ],
+                            [
+                                1.0,
+                                0.0
+                            ],
+                            [
+                                0.0,
+                                0.0
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    "contours": {
+        "type": "FeatureCollection",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "EPSG:4326"
+            }
+        },
+        "features": []
+    }
+}
