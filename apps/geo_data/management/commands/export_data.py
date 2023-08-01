@@ -1,11 +1,7 @@
 import json
-import os
-import django
 
+from django.core.management import BaseCommand
 from django.core.serializers import serialize
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
-django.setup()
 
 from apps.geo_data.models import Region, District, Canton, Contour
 
@@ -27,5 +23,8 @@ def export_data_to_json(filename):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-if __name__ == '__main__':
-    export_data_to_json('geo_data')
+class Command(BaseCommand):
+    help = 'Export data from database to json file'
+
+    def handle(self, *args, **kwargs):
+        export_data_to_json('geo_data')

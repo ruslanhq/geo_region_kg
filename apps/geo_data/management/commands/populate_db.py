@@ -1,10 +1,6 @@
-import os
-import django
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
-django.setup()
-
 from django.contrib.gis.geos import Polygon
+from django.core.management.base import BaseCommand
+
 from apps.geo_data.models import Region, District, Canton, Contour
 
 
@@ -80,5 +76,8 @@ def populate_database():
     )
 
 
-if __name__ == '__main__':
-    populate_database()
+class Command(BaseCommand):
+    help = 'Populate the database with initial data'
+
+    def handle(self, *args, **kwargs):
+        populate_database()
